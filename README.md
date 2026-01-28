@@ -2,6 +2,7 @@
 
 ### Usage
 This was developed for a personal project and the remenant of that is `private PlayerMovement _playerMovement;` with code that freezes the player's movement `_playerMovement.FreezeMovement();` if this is something you don't want simply remove it. (If you need help ask me)
+One thing to note is this script only allows holding ONE item at a time, although I may change this in the future.
 
 ### Code
 Every item in your inventory follows the class:
@@ -35,7 +36,7 @@ EquipItem(itemToEquip);
 ```
 ### Unequpping Items
 ```cs
-UnequipAll();
+UnequipAll(); 
 ```
 
 #### Get current item
