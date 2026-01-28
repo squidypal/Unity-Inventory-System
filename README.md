@@ -6,7 +6,7 @@ This was developed for a personal project and the remenant of that is `private P
 ### Code
 Every item in your inventory follows the class:
 ```cs
- [Serializable]
+    [Serializable]
     public class InventoryItem
     {
         [CanBeNull] public GameObject prefab;
