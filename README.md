@@ -1,5 +1,7 @@
 # Inventory System
 
+This project while public may and most likely will continue to be developed.
+
 ### Usage
 This was developed for a personal project and the remenant of that is `private PlayerMovement _playerMovement;` with code that freezes the player's movement `_playerMovement.FreezeMovement();` if this is something you don't want simply remove it. (If you need help ask me)
 One thing to note is this script only allows holding ONE item at a time, although I may change this in the future.
